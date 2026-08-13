@@ -53,13 +53,13 @@ Key inputs:
 
 Classical beam equations were used to calculate:
 
-* support reactions;
-* maximum bending moment;
-* maximum bending stress;
-* factor of safety relative to bending rupture;
-* maximum vertical deflection;
-* approximate rupture load;
-* load corresponding to the L/240 serviceability limit.
+* support reactions
+* maximum bending moment
+* maximum bending stress
+* factor of safety relative to bending rupture
+* maximum vertical deflection
+* approximate rupture load
+* load corresponding to the L/240 serviceability limit
 
 
 ## Python Calculation Tool
@@ -79,11 +79,11 @@ A SolidWorks assembly was created containing the closet rod and two open-top woo
 
 The static simulation incorporated:
 
-* distributed vertical loading;
-* fixed rear surfaces of the support inserts;
-* rod-to-support contact interactions;
-* local mesh refinement near contact regions;
-* simplified isotropic teakwood material properties.
+* distributed vertical loading
+* fixed rear surfaces of the support inserts
+* rod-to-support contact interactions
+* local mesh refinement near contact regions
+* simplified isotropic teakwood material properties
 
 ![FEA displacement](images/displacement.png)
 
@@ -104,9 +104,9 @@ The analysis indicates that increasing **stiffness** would be more beneficial th
 
 Potential design improvements include:
 
-* adding a center support;
-* reducing the unsupported span;
-* increasing rod diameter.
+* adding a center support
+* reducing the unsupported span
+* increasing rod diameter
 
 Because beam deflection varies strongly with span length, adding a center support would provide a particularly large reduction in sag.
 
@@ -117,13 +117,13 @@ This project is intended as a first-order engineering assessment rather than an 
 
 Important simplifications include:
 
-* teakwood modeled as homogeneous and isotropic;
-* uniform rather than discrete hanger loading;
-* static loading only;
-* idealized material properties;
-* simplified support geometry;
-* no direct time-dependent creep simulation;
-* no detailed anisotropic wood failure model.
+* teakwood modeled as homogeneous and isotropic
+* uniform and static rather than discrete, dynamic hanger loading
+* rough weight estimate
+* idealized material properties
+* simplified support geometry
+* no direct time-dependent creep simulation
+* no detailed anisotropic wood failure model
 
 Real wood behavior depends on grain direction, moisture content, defects, age, and other factors not captured by the model.
 
@@ -132,10 +132,10 @@ Real wood behavior depends on grain direction, moisture content, defects, age, a
 
 * SolidWorks
 * SolidWorks Simulation
-* Python
+* Python (vscode)
 * Mechanics of Materials / Beam Theory
-* Microsoft Excel
-* Technical Documentation
+* Microsoft Word
+
 
 ## Full Report
 
